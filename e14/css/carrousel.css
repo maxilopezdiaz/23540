@@ -1,0 +1,28 @@
+section{
+    background-image: radial-gradient(circle at 50% -20.71%, #ffa696 0, #ffaf82 4.55%, #ffb86f 9.09%, #ffc15d 13.64%, #ffcb4c 18.18%, #ffd43c 22.73%, #ffdc2c 27.27%, #ffe520 31.82%, #ffec19 36.36%, #fff31c 40.91%, #e9f928 45.45%, #d2ff38 50%, #b9ff49 54.55%, #9eff5c 59.09%, #7eff70 63.64%, #52ff84 68.18%, #00ff99 72.73%, #00ffaf 77.27%, #00ffc6 81.82%, #00ffdd 86.36%, #00fff4 90.91%, #00ffff 95.45%, #00ffff 100%);
+}
+.canchas{
+    display: flex;
+    overflow-y: auto;
+    padding: 16px;
+}
+.imgcanchas{
+    margin-right: 10px;
+    position: relative;
+}
+.titulotexto{
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    background-color:rgba(0, 0, 0, 0.4) ;
+    color: #fff;
+}
+.titulotexto h5,
+.titulotexto p{
+    margin: 0;
+}
+.imgcanchas img{
+    width: 200px;
+    object-fit: cover;
+    height: 300px;
+}

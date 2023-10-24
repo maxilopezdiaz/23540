@@ -1,0 +1,61 @@
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: darkcyan;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header h2{
+    font-size: xx-large;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 60px;
+    margin-right: 10px;
+}
+nav a{
+    font-size:x-large ;
+    font-family:Georgia, 'Times New Roman', Times, serif
+    color  rgb(7, 7, 6);
+    font-weight : 900;
+    padding-right : 10 px;
+}
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    } 
+}
+.frase{
+    height: 24px;
+    align-items: center;
+    display: flex;
+    background-image: radial-gradient(circle at 50% -20.71%, #91cdd5 0, #7ec5d2 16.67%, #69bccf 33.33%, #50b3cc 50%, #30aaca 66.67%, #00a1c8 83.33%, #0098c7 100%);
+    margin: 0;   
+}
+main{
+    display:flex ;
+    background-image: linear-gradient(180deg, #eeb36c 0, #e5b769 3.85%, #dbbb67 7.69%, #d1be67 11.54%, #c6c269 15.38%, #bac56c 19.23%, #aec871 23.08%, #a1cb78 26.92%, #94cd7f 30.77%, #86cf88 34.62%, #78d192 38.46%, #68d29d 42.31%, #56d3a8 46.15%, #42d4b3 50%, #27d4bf 53.85%, #00d5ca 57.69%, #00d5d5 61.54%, #00d4e0 65.38%, #00d3eb 69.23%, #00d2f4 73.08%, #00d1fc 76.92%, #00cfff 80.77%, #07cdff 84.62%, #3bcaff 88.46%, #58c7ff 92.31%, #70c4ff 96.15%, #86c0ff 100%);
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.sedes{
+    background-color: darkcyan;
+    margin: 0;
+    padding: 10px;
+}
